@@ -1,0 +1,773 @@
+
+/*************made by Soyoon****************/
+/******************for mobile******************************/
+@media only screen 
+and (max-width : 768px){
+
+	
+	#nav-bar
+	{
+	width: 100%;
+	height:100px;
+	background-color: #6a6f5e; }
+
+
+	#logo
+	{
+	 display: none;
+	}
+
+	.header
+	{
+	width: 25%;
+	/* we will put the hamburger menu */
+	height: 60px;
+	margin-top: 15px;
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	float: right; }
+
+	.header li
+	{display:none;}
+
+	#slide
+	{display:none;}
+	
+	.about
+	{display:none;}
+
+	 .tablet-con
+    {
+    width: 90%;
+    /*height: 700px;*/
+    margin: 0 auto;
+    /*border: dashed 1px;*/
+    }
+	
+	.exec,.gear,.gear-p,.trout,.trout-p,.local,.thanksto,.volunteer
+	{display: none;}
+
+	#about-flexbox,#child-flex,#gear-txt,#gear-img,#cont,#exec-flexbox,#footer
+	{display:none;}
+
+	
+	.about-p
+    {
+    width:100%;
+    height: 150px;
+    margin-top: 35px;
+    background-color: #afb89d;
+    text-align: center;
+    font-size: 35px;
+    }
+	
+	.img-trout
+	{
+	width: 75%;
+	height: 150px;
+	margin-left: 12%;
+	margin-top: 5%;
+	background-color: #aaa69d;
+	text-align: center;
+    font-size: 35px;
+	}
+
+	.trout-tablet
+	{
+	width: 75%;
+	height: 150px;
+	margin-left: 12%;
+	background-color: #f1cb7c;
+	text-align: center;
+    font-size: 35px;
+	}
+	
+	#gear-tablet
+	{
+	width: 100%;
+	margin-top: 35px;
+	height: 180px;
+	}
+
+
+	.img-gear
+	{
+	width: 50%;
+	height: 150px;
+	margin-left: 23%;
+	margin-top: 5%;
+	background-color: #e7e4e4;
+	text-align: center;
+	font-size: 40px;
+	}
+
+
+
+	#g-button
+	{
+	background-color: #9abe50;
+	margin-left: 32%;
+	margin-top: 15px;
+	margin-bottom: 40px;
+	width: 30%;
+	height: 50px;
+	color: white;
+
+	}
+
+}
+/************************fot Tablet*************************/
+
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) {
+
+
+	#nav-bar
+	{
+	width: 100%;
+	height:100px;
+	background-color: #6a6f5e; }
+
+
+	#logo
+	{
+	 display: none;
+	}
+
+	.header
+	{
+	width: 65%;
+	height: 60px;
+	margin-top: 15px;
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	float: right; }
+
+	#slide
+	{
+	width: 100%;
+	height: 600px;
+	background-color:#e7e4e4;
+	text-align: center;
+	font-size: 70px;
+	}
+	
+/*******tablet container**********/
+
+    .tablet-con
+    {
+    width: 90%;
+    /*height: 700px;*/
+    margin: 0 auto;
+    /*border: dashed 1px;*/
+    }
+
+	.about
+	{
+	margin-top: 35px;
+	width: 35%;
+	height:55px;
+	background-color:#e7e4e4;
+	text-align: center;
+	font-size: 40px;
+}
+
+    .about-p
+    {
+    width:100%;
+    height: 150px;
+    margin-top: 35px;
+    background-color: #afb89d;
+    text-align: center;
+    font-size: 65px;
+    }
+
+
+	#con-trout
+	{
+	width: 100%;
+	height: 200px;
+	margin-top:35px;
+	display: flex;
+	flex-direction: row;
+	}
+
+	.img-trout
+	{
+	width: 40%;
+	height: 200px;
+	background-color: #aaa69d;
+	text-align: center;
+    font-size: 65px;
+	}
+
+	.trout-tablet
+	{
+	width: 55%;
+	height: 200px;
+	margin-left: 5%;
+	background-color: #f1cb7c;
+	text-align: center;
+    font-size: 65px;
+	}
+
+	.gear
+	{
+	margin-top: 35px;
+	width: 35%;
+	height:55px;
+	background-color:#e7e4e4;
+	text-align: center;
+	font-size: 40px;
+	}
+
+
+	#gear-tablet
+	{
+	width: 100%;
+	margin-top: 35px;
+	background-color: #afb89d;
+	height: 380px;
+	display: flex;
+	flex-direction: row;
+	}
+
+	.img-gear,.gear-p
+	{
+	width: 45%;
+	margin:3%;
+	background-color: #e7e4e4;
+	text-align: center;
+	font-size: 40px;
+	}
+
+	#g-button
+	{display: none;}
+
+/*********************** change the some layouts ***********************/
+
+#about-flexbox,#child-flex,#gear-img,#gear-txt,#cont,#footer
+{display:none;}
+
+.local,.thanksto,.img-vest
+{display:none;}
+
+
+	.exec 
+	{
+	width: 35%;
+	height:55px;
+	background-color:#e7e4e4;
+	text-align: center;
+	font-size: 40px;
+	margin-left: 310px;
+	margin-top: 65px;
+	}
+
+	#exec-flexbox
+	{
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+	background-color: white;
+	margin-bottom: 40px;
+	/*border: dashed green 0.5px;*/
+
+}
+
+
+	.president
+	{
+	width: 30%;
+	height: 300px;
+	margin-left: 10%;
+	margin-top: 40px;
+	font-size: 25px;
+	background-color:#9abe50;
+	list-style: none;
+	display:flex;
+	flex-direction: column;
+}
+
+	.president li
+	{
+	background-color: white;
+	border: dashed 0.5px;
+	padding:10px;
+	}
+
+
+
+	.volunteer
+	{
+	width: 30%;
+	height: 300px;
+	margin-top: 45px;
+	margin-left: 15%;
+	font-size: 24px;
+	background-color: #9abe50;
+	list-style: none;
+	display:flex;
+	flex-direction: column;
+}
+
+
+	.volunteer li
+	{
+	padding:5px;
+	background-color: white;
+	border: dashed 0.5px;
+	}
+	
+
+}
+/***********************************Original Desktop*******************************/
+
+@media only screen
+and (min-width: 1024px) {
+
+main
+{	
+    width: 1200px;
+    padding: 0 10px 10px 10px;
+    margin: 0 auto;
+}
+
+
+#nav-bar
+{
+width:1200px;
+height:100px;
+background-color:#9abe50;
+}
+
+
+#logo
+{
+
+width: 180px;
+height: 200px;
+background-color: orange;
+   float: left;
+   padding-left: 50px;
+   position: absolute;
+   z-index: 1;  
+   font-size: 50px;
+}
+
+
+
+.header
+{
+width: 710px;
+height: 60px;
+background-color: white;
+display: flex;
+flex-direction: row;
+float: right;
+border: dashed 3px;
+}
+
+
+.header li
+{
+width: 125px;
+height: 30px;
+margin-top: 22px;
+text-align: center;
+background-color: orange;
+border: dashed 0.5px;
+}
+
+.header li a
+{
+display: block;
+padding: 10px;
+margin-right: 30px;
+}
+
+#slide
+{
+width:1200px;
+height: 600px;
+background-color:#19C6F4;
+text-align: center;
+font-size: 70px;
+}
+
+
+.about
+{
+margin-top: 75px;
+width: 500px;
+height:60px;
+background-color:#9abe50;
+text-align: center;
+font-size: 40px;
+}
+/*******************for tablet *********************/
+ 	.about-p,.gear,.img-gear,.gear-p,.tablet-con
+    {
+    display: none;
+    }
+
+	#con-trout,#gear-tablet,
+	{
+	display: none;
+	}
+
+/*********the first flexbox*******/
+
+#about-flexbox
+{
+display: flex;
+flex-direction: row;
+margin-top: 60px;
+border: dashed green 2px;
+}
+
+
+.trout
+{
+width: 510px;
+height: 520px;
+background-color: #19C6F4;
+margin-right: 20px;
+text-align: center;
+font-size: 45px;
+}
+
+
+.trout-p
+{
+width: 490px;
+height: 370px;
+margin-top: 15px;
+margin-left: 5px;
+background-color: white;
+text-align: center;
+font-size: 50px;
+}
+
+
+
+/*****the second flexbox********/
+
+#child-flex
+{
+display: flex;
+flex-direction: column;
+border: dashed green 2px;
+}
+
+
+.child-h2
+{
+margin-top: 10px;
+width: 650px;
+height: 30px;
+background-color: white;
+border: solid 0.5px;
+text-align: center;
+font-size: 20px;
+}
+
+
+.child
+{
+margin-top: 46px;
+width: 650px;
+height: 130px;
+background-color: #d9ae59;
+text-align: center;
+font-size: 45px;
+}
+
+
+.general-h2
+{
+margin-top: 13px;
+width: 650px;
+height: 30px;
+background-color: white;
+border: solid 0.5px;
+text-align: center;
+font-size: 20px;
+}
+
+.general 
+{
+margin-top: 46px;
+width: 650px;
+height: 150px;
+background-color: #d9ae59; 
+text-align: center;
+font-size: 45px; 
+}
+
+
+.local
+{
+margin-top: 75px;
+margin-bottom: 20px;
+width: 500px;
+height:60px;
+background-color:#9abe50;
+text-align: center;
+font-size: 40px;
+}
+
+
+/***TRAA Gear******/
+
+#gear-img
+{
+float: left;
+width: 280px;
+height: 245px;
+background-color: orange;
+margin-top: 53px;
+margin-left: 15px;
+text-align: center;
+font-size: 40px;
+}
+
+
+
+#gear-txt
+{
+margin-top: 30px;
+display: flex;
+flex-direction: column;
+}
+
+
+
+.gear-h2
+{
+margin-top: 45px;
+margin-left: 20px;
+width: 850px;
+height: 50px;
+background-color: white;
+border: solid 0.5px;
+}
+
+.gear-box
+{
+background-color:#9abe50;
+ width: 850px;
+ height: 162px;
+ margin-top: 30px;
+ margin-left: 20px;
+}
+
+
+#g-button
+{display:no;}
+
+/****thanks to*******/
+
+.thanksto
+{
+width: 500px;
+height: 40px;
+margin-top: 70px;
+background-color:#9abe50;
+text-align: center;
+font-size: 30px;
+}
+
+
+#cont
+{
+margin-top: 85px;
+background-color: white;
+width: 1200px;
+height: 130px;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+
+.img1,.img2,.img3,.img4,.img5
+{
+width: 150px;
+height: 120px;
+background-color: orange;
+text-align: center;
+font-size: 30px;
+}
+
+/******TRAA Executives & TRAA Volunteer Committee Chairs*****/
+
+.exec 
+{
+width: 700px;
+margin-top: 105px;
+margin-left: 160px;
+background-color:#9abe50;
+text-align: center;
+font-size: 30px;
+}
+
+
+#exec-flexbox
+{
+display: flex;
+flex-direction: row;
+margin-top: 35px;
+background-color: white;
+border: dashed green 0.5px;
+
+}
+
+
+.president
+{
+width: 400px;
+height: 300px;
+margin-left: 170px;
+margin-top: 40px;
+font-size: 25px;
+background-color:#9abe50;
+list-style: none;
+display:flex;
+flex-direction: column;
+}
+
+.president li
+{
+background-color: white;
+border: dashed 0.5px;
+padding:10px;
+}
+
+
+
+.volunteer
+{
+width: 300px;
+height: 300px;
+margin-top: 45px;
+margin-left: 10px;
+font-size: 24px;
+background-color: #9abe50;
+list-style: none;
+display:flex;
+flex-direction: column;
+}
+
+
+.volunteer li
+{
+padding:5px;
+background-color: white;
+border: dashed 0.5px;
+}
+
+.img-vest
+{
+width: 150px;
+height: 120px;
+margin-top: 75px;
+margin-left: 20px;
+background-color: orange;
+text-align: center;
+font-size: 30px;
+}
+
+
+
+/****footer******/
+
+
+#footer
+{
+margin-top: 300px;
+width:1200px;
+height:100px;
+background-color:#9abe50;
+display: flex;
+flex-direction: row;
+}
+
+
+#footerlogo
+{
+margin-top:10px;
+margin-left: 15px;
+width: 150px;
+height: 60px;
+background-color: orange;
+float: left;
+text-align: center;
+}
+
+
+.ft1
+{
+width:520px;
+height: 80px;
+margin-top: 10px;
+margin-left: 30px;
+display: flex;
+flex-direction: row;
+background-color: white;
+border: dashed 3px;
+}
+
+
+.ft1 li
+{
+width: 125px;
+height: 30px;
+margin-top: 15px;
+padding: 2px;
+text-align: center;
+background-color: orange;
+border: dashed 0.5px;
+}
+
+.ft1 li a
+{
+display: block;
+padding: 5px;
+}
+
+
+.ft2
+{
+width:420px;
+height: 80px;
+margin-top: 10px;
+margin-left: 230px;
+border: dashed 3px;
+background-color: white;
+display: flex;
+flex-direction: row;
+}
+
+.ft2 li
+{
+width: 50px;
+height: 30px;
+margin-top: 10px;
+justify-content: space-evenly;
+text-align: center;
+background-color: orange;
+border: dashed 0.5px;
+}
+
+.ft2 li a
+{
+display: block;
+padding: 5px;
+}
+
+
+}
