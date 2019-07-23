@@ -1,4 +1,4 @@
-# Responsive MediaQuery layouts
+# Responsive MediaQuery Layouts
 making a basic example of Media Query for Final Intergrated Project
 2019 July, 23
 
